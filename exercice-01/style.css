@@ -6,11 +6,50 @@ body {
 
 h1 {
   color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 button {
   background-color: blue;
   color: white;
-  padding: 10px;
- border: none;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
