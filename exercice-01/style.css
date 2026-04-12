@@ -53,3 +53,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+li {
+  margin: 10px 0;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+}
+
+.note {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.note h3 {
+  margin: 0 0 10px 0;
+}
+
+.note button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
